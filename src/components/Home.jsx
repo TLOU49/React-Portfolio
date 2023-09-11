@@ -5,6 +5,7 @@ import RLogo from "../assets/react.png"
 import H3 from "../assets/images.jpg"
 import Redux from "../assets/redux.webp"
 import About from "./About";
+import ProjectTools from "../utils/ProjectTools";
 
 const Home = () => {
 
@@ -41,9 +42,14 @@ const Home = () => {
         <span className="hidden mdl:flex  absolute top-[15rem] left-16 rounded-full bg-#dfe6ef shadow-2xl h-16 w-16"></span>
         <span className="hidden mdl:flex  absolute top-[10rem] right-2 rounded-full bg-#dfe6ef shadow-2xl h-16 w-16"></span>
       </div>
-      <div >
+      
+      {/* ABOUT ME */}
         <About/>
-      </div>
+
+        {/*MY PROJECTS  */}
+        <h1 className="text-center justify-center font-bold py-4 text-[2rem] flex">Have A Look At <p className="pl-2 text-dean_blue">My Projects</p></h1>
+        <ProjectTools/>
+        
     </div>
   );
 };
