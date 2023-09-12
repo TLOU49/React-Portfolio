@@ -12,9 +12,9 @@ const Menu = ({setMenuOpen}) => {
       <span className="flex flex-col">
           <a href='#home' className="pt-[4rem] pl-4 " onClick={()=>setMenuOpen(false)}>HOME</a>
           <a href='#about' className="pl-4 py-4" onClick={()=>setMenuOpen(false)}>ABOUT</a>
-          <a href='#about'className="pl-4 py-4" onClick={()=>setMenuOpen(false)}>WORK</a>
-          <a href='#about' className="pl-4 py-4" onClick={()=>setMenuOpen(false)}>SKILLS</a>
-          <a href='#about' className="pl-4 py-4" onClick={()=>setMenuOpen(false)}>CONTACT</a>
+          <a href='#work'className="pl-4 py-4" onClick={()=>setMenuOpen(false)}>WORK</a>
+          <a href='#skills' className="pl-4 py-4" onClick={()=>setMenuOpen(false)}>SKILLS</a>
+          <a href='#contact' className="pl-4 py-4" onClick={()=>setMenuOpen(false)}>CONTACT</a>
         </span>
       </div>
     </div>

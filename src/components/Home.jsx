@@ -6,6 +6,8 @@ import H3 from "../assets/images.jpg"
 import Redux from "../assets/redux.webp"
 import About from "./About";
 import ProjectTools from "../utils/ProjectTools";
+import Skills from "./Skills";
+import Contact from "./Contact";
 
 const Home = () => {
 
@@ -47,8 +49,22 @@ const Home = () => {
         <About/>
 
         {/*MY PROJECTS  */}
-        <h1 className="text-center justify-center font-bold py-4 text-[2rem] flex">Have A Look At <p className="pl-2 text-dean_blue">My Projects</p></h1>
+        <h1 className="text-center justify-center font-bold py-4 text-[2rem] flex flex-wrap px-16" id="work">Have A Look At <p className="pl-2 text-dean_blue">My Projects</p></h1>
         <ProjectTools/>
+
+        {/* My Skills */}
+        <div id="skills">
+        <h1 className="text-[2rem] font-bold flex py-9 text-center justify-center">
+          These Are My <h1 className="text-dean_blue pl-2">Skills</h1>
+        </h1>
+        <Skills/>
+        </div>
+
+        {/* Contact*/}
+        <Contact/>
+
+        {/* Footer */}
+
         
     </div>
   );

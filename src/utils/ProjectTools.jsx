@@ -33,6 +33,13 @@ const ProjectTools = () => {
           codeLink="https://github.com/TLOU49/react-tic-tac-toe"
           projectLink="https://tictactoe-dean.netlify.app"
         />
+        <Projects
+          image="https://www.dittofi.com/wp-content/uploads/2021/11/Amazon-2019-1024x634.jpg"
+          title="Amazon website"
+          description="Built with NextJS"
+          codeLink="https://github.com/TLOU49/Next-Amazon"
+          projectLink="https://dean-amazon-next.netlify.app/"
+        />
       </div>
     </div>
   );

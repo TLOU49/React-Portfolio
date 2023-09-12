@@ -14,8 +14,8 @@ const Projects = ({image, title, codeLink, projectLink, description}) => {
   return (
     <div>
       <div className="w-full text-center">
-        <span className="flex flex-col bg-white w-56 h-44 m-4 items-center text-center justify-center flex-wrap rounded-md hover:-translate-y-1 hover:scale-110 duration-300 ease-in-out">
-          <div className="w-48 rounded p-1 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% hover:from-pink-500 hover:to-yellow-500">
+        <span className="flex flex-col bg-white w-56 h-48 m-4 items-center text-center justify-center flex-wrap rounded-md hover:-translate-y-1 hover:scale-110 duration-300 ease-in-out">
+          <div className="w-48 rounded p-1 bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-500">
           <img
             height={180}
             width={180}
