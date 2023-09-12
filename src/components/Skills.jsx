@@ -2,7 +2,6 @@ import React from "react";
 import Skill from "../utils/Skill";
 import HTML from "../assets/html5.webp"
 import CSS from "../assets/CSS3.jpg"
-import JS from "../assets/JavaScript.png"
 import Reactp from "../assets/react.png"
 import Redux from "../assets/redux.webp"
 import TW from "../assets/TW.jpg"
