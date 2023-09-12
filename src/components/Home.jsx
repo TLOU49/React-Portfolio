@@ -29,7 +29,7 @@ const Home = () => {
   },[])
 
   return (
-    <div className="w-full bg-gray-100 py-[2rem]" >
+    <div className="w-fit bg-gray-100 py-[2rem]" >
       <div className="mdl:flex w-full py-[3rem]" id="home">
         <span />
         <span className="flex bg-#edf2f8  h-20 rounded shadow-2xl w-40 p-5 ml-[4rem] mdl:mt-[15rem] mdl:ml-[8rem]">
@@ -44,10 +44,10 @@ const Home = () => {
          <p ref={el}></p>
         </span>
 
-        <div className="h-64 w-68 mt-[rem] ml-[10rem]  mdl:mt-[2rem]">
+        <div className="h-64 w-68 mt-[-2rem] ml-[10rem]  mdl:mt-[2rem]">
             <img
-              height={250}
-              width={250}
+              height={300}
+              width={300}
               src={Dean}
               alt="dean"
               className="mdl:ml-[-20px] mdl:pt-5 ml-1 pt-1 mdl:h-[22rem] mdl:w-[23rem] rounded-full"
@@ -83,9 +83,6 @@ const Home = () => {
 
         {/* Contact*/}
         <Contact/>
-
-        {/* Footer */}
-
         
     </div>
   );

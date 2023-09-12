@@ -15,7 +15,7 @@ import Firebase from "../assets/firebase.jpg"
 const Skills = () => {
   return (
     <div>
-      <div className="flex flex-wrap text-center justify-center">
+      <div className="w-full flex flex-wrap text-center justify-center">
         <Skill image={HTML} name="HTML5" />
         <Skill image={CSS} name="CSS3" />
         <Skill image={Reactp} name="React js" />
