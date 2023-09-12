@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Dean from "../assets/Face2.png";
 import { PiHandWavingFill } from "react-icons/pi";
 import RLogo from "../assets/react.png"
@@ -11,22 +11,37 @@ import Contact from "./Contact";
 import {FiFacebook} from 'react-icons/fi'
 import {AiFillGithub} from 'react-icons/ai'
 import {BiLogoLinkedin} from 'react-icons/bi'
+import Typed from 'typed.js';
 
 const Home = () => {
+  const el = useRef(null)
+
+  useEffect(()=>{
+    const typed = new Typed(el.current, {
+      strings: ['Fullstack developer', 'CSS enthusiast', 'Young exciting mind'],
+      typeSpeed: 80,
+      loop: true,
+  loopCount: Infinity,
+    })
+    return()=>{
+      typed.destroy()
+    }
+  },[])
 
   return (
     <div className="w-full bg-gray-100 py-[2rem]" >
       <div className="mdl:flex w-full py-[3rem]" id="home">
+        <span />
         <span className="flex bg-#edf2f8  h-20 rounded shadow-2xl w-40 p-5 ml-[4rem] mdl:mt-[15rem] mdl:ml-[8rem]">
           <span className="text-yellow-400 p-2 mr-2 text-[2.1rem] hover:-translate-x-2 hover:scale-110 duration-300 ease-in-out">
             <PiHandWavingFill />
           </span>
-          <p className="text-[11px] text-gray-400">
+          <p className="text-[11px] text-gray-400" >
             Hello! I'm<p className="text-[1.4rem] font-bold text-black"> Dean</p>
           </p>
         </span>
-        <span className="flex bg-#edf2f8 h-16 rounded shadow-2xl w-32 p-3 mt-[1rem] ml-[4rem] mdl:mt-[20rem] mdl:ml-[-10rem]">
-         <p>Fullstack developer</p>
+        <span className="flex bg-#edf2f8 h-16 text-[14px] rounded shadow-2xl w-36 p-3 mt-[1rem] ml-[4rem] mdl:mt-[20rem] mdl:ml-[-10rem]">
+         <p ref={el}></p>
         </span>
 
         <div className="h-64 w-68 mt-[rem] ml-[10rem]  mdl:mt-[2rem]">
