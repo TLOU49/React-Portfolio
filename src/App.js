@@ -6,7 +6,7 @@ import Header from './utils/Header';
 function App() {
 
   return (
-    <div className="w-full relative" >
+    <div className="w-screen relative" >
       <div className='fixed top-0 left-0 right-0 '>
      <Header/>
       </div>

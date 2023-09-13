@@ -29,7 +29,7 @@ const Home = () => {
   },[])
 
   return (
-    <div className="w-screen bg-gray-100 py-[2rem]" >
+    <div className="w-fit bg-gray-100 py-[2rem]" >
       <div className="mdl:flex w-full py-[3rem]" id="home">
         <span />
         <span className="flex bg-#edf2f8  h-20 rounded shadow-2xl w-40 p-5 ml-[4rem] mdl:mt-[15rem] mdl:ml-[8rem]">
