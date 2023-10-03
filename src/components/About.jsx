@@ -41,9 +41,15 @@ const About = () => {
         With the expansion of AI, I still believe that they cannot replace
         humans. The human touch will always be special. The only way AI can
         replace humans is if humans are not innovative enough and lack ideas for
-        the future. And I beleive ideas for the future would be humans no longer
-        focusing on the technical part of things but creating new ideas that
-        save their clients time, resources and benefits them in other ways. ie
+        the future.
+        <p className="py-2 ">
+          <em>
+            "Despite AI gain, demand for Software developers will still outweigh
+            supply. The amount of software in 10years is only going to
+            exponentially grow"
+          </em>
+          - GitHub CEO
+        </p>
         <p className="font-bold py-6 text-dean_blue">
           Instead of just a simple plain website, companies can think of
           innovative ways of making clients/customers choose them.
@@ -62,10 +68,13 @@ const About = () => {
           them the time and resources of going in to do a physical quotation
           then the customer ends up going with another constructor.
         </li>
-
         <span className="flex flex-col text-center justify-center">
-        <a href="#contact" className="my-4 font-semibold text-[14px]">Hit me up and let's create amazing ideas </a>
-        <a href="#contact" className=" flex text-center  justify-center"><PiCaretDoubleDownBold className="animate-bounce text-[2rem] h-10 w-10  text-dean_blue hover:bg-dean_blue hover:text-white rounded-full p-1" /></a>
+          <a href="#contact" className="my-4 font-semibold text-[14px]">
+            Hit me up and let's create amazing ideas{" "}
+          </a>
+          <a href="#contact" className=" flex text-center  justify-center">
+            <PiCaretDoubleDownBold className="animate-bounce text-[2rem] h-10 w-10  text-dean_blue hover:bg-dean_blue hover:text-white rounded-full p-1" />
+          </a>
         </span>
       </p>
     </div>
