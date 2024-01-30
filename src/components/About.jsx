@@ -7,6 +7,11 @@ import Innovation from "../assets/innovation.png";
 import { PiCaretDoubleDownBold } from "react-icons/pi";
 
 const About = () => {
+  const handleContactScroll = () =>{
+    const height = window.scrollY;
+    console.log(height);
+    window.scrollTo({ top: 3200.2, behavior: 'smooth'});
+  }
   return (
     <div id="about">
       <div className=" flex  text-center justify-center text-[2rem] font-semibold my-[6rem]">
@@ -54,27 +59,13 @@ const About = () => {
           Instead of just a simple plain website, companies can think of
           innovative ways of making clients/customers choose them.
         </p>
-        <li>
-          Law firms can have an emergency contact button that also sends
-          client's location for when a client is in serious danger/legal
-          trouble. Or for when their rights are being violeted in police
-          stations. This benefits both the user and company since the company
-          can charge emergency/outside working hours fees
-        </li>
-        <li>
-          Construction companies can have a page where you can calculate the
-          approximate material and costs that will be needed and customers will
-          contact them when they are certain about choosing them. This saves
-          them the time and resources of going in to do a physical quotation
-          then the customer ends up going with another constructor.
-        </li>
         <span className="flex flex-col text-center justify-center">
           <a href="#contact" className="my-4 font-semibold text-[14px]">
             Hit me up and let's create amazing ideas{" "}
           </a>
-          <a href="#contact" className=" flex text-center  justify-center">
+          <p className=" flex text-center  justify-center" onClick={handleContactScroll}>
             <PiCaretDoubleDownBold className="animate-bounce text-[2rem] h-10 w-10  text-dean_blue hover:bg-dean_blue hover:text-white rounded-full p-1" />
-          </a>
+          </p>
         </span>
       </p>
     </div>
