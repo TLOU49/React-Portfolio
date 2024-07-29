@@ -11,15 +11,18 @@ const Header = () => {
     console.log(height);
     window.scrollTo({ top: 0, behavior: 'smooth'});
   }
+  
   const handleAboutScroll = () =>{
    window.scrollTo({ top: 600, behavior: 'smooth'});
   }
+
   const handleWorkScroll = () =>{
    window.scrollTo({ top: 1509.60, behavior: 'smooth'});
   }
   const handleSkillScroll = () =>{
     window.scrollTo({ top: 2107.19, behavior: 'smooth'});
   }
+
   const handleContactScroll = () =>{
     const height = window.scrollY;
     console.log(height);
@@ -28,7 +31,7 @@ const Header = () => {
 
   return (
     <div >
-      <div className="justify-between flex h-12 p-2 shadow-xl sticky bg-gray-100 opacity-75">
+      <div className="justify-between flex h-12 w-auto p-2 shadow-xl sticky bg-gray-100 opacity-75">
         <span className="flex text-[1.3rem] font-semibold ml-2 ">
           <h1 className="box-border h-9 border-[3px] border-dean_blue rounded-md">
             <p className="px-1 text-dean_blue ">Dean</p>

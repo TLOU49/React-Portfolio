@@ -26,19 +26,19 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact">
+    <div className="w-full" id="contact">
       <h1 className="text-[2rem] flex font-bold text-center justify-center my-6">
         Let's <h1 className="pl-2 text-dean_blue">Connect!</h1>
       </h1>
-      <p className="ml-9 text-[13px] text-gray-500">
+      <p className="text-center text-[13px] text-gray-500">
         {" "}
         Would love to connect with fellow developers, employers looking for
         developers, or anyone looking to get web development done.
       </p>
-      <div className="flex text-center justify-center ">
+      <div className="flex text-center justify-center w-full">
         <form
           ref={form}
-          className="flex flex-col mx-12 my-4 border-2 border-dean_blue px-4 w-fit rounded-md"
+          className="flex flex-col mx-12 my-4 border-2 border-dean_blue px-4 w-1/2 rounded-md"
           onSubmit={sendEmail}
         >
           <input
@@ -46,21 +46,21 @@ const Contact = () => {
             name="from_name"
             id=""
             placeholder="Please enter your name"
-            className="font-semibold mt-2 rounded text-[13px] focus:outline-none pl-3"
+            className="font-semibold mt-2 h-[2rem] w-full rounded text-[13px] focus:outline-none pl-3"
           />
           <input
             type="email"
             name="email_address"
             id=""
             placeholder="Please enter your email..."
-            className="my-3 w-96 text-[13px] focus:outline-none invalid:text-pink-600 rounded pl-3"
+            className="my-3 w-full h-[2rem] text-[13px] focus:outline-none invalid:text-pink-600 rounded pl-3"
           />
           <input
             type="text"
             name="subject"
             id="subject"
             placeholder="Please enter subject..."
-            className="my-3 w-96 text-[13px] focus:outline-none rounded pl-3 font-semibold"
+            className="my-3 w-full h-[2rem]  text-[13px] focus:outline-none rounded pl-3 font-semibold"
           />
           <textarea
             name="message"
@@ -68,7 +68,7 @@ const Contact = () => {
             cols="30"
             rows="10"
             placeholder="Enter message"
-            className="text-[13px] focus:outline-none rounded h-20 w-96 pl-3"
+            className="text-[13px] focus:outline-none rounded h-20 w-full pl-3"
           ></textarea>
           <input
             type="submit"
@@ -77,7 +77,8 @@ const Contact = () => {
           />
         </form>
       </div>
-      <span className="text-[12px] text-gray-500">
+      
+      <span className="flex flex-col items-center text-[14px] text-gray-500">
         <h1 className="flex mx-9 font-bold">
           Name: <p className="px-2 font-normal">Dean Mabuela</p>
         </h1>

@@ -29,10 +29,9 @@ const Home = () => {
   },[])
 
   return (
-    <div className="w-fit bg-gray-100 py-[2rem]" >
-      <div className="mdl:flex w-full py-[3rem]" id="home">
-        <span />
-        <span className="flex bg-#edf2f8  h-20 rounded shadow-2xl w-40 p-5 ml-[4rem] mdl:mt-[15rem] mdl:ml-[8rem]">
+    <div className="w-auto bg-gray-100 py-[2rem]" >
+      <div className="mdl:flex w-full py-[3rem] items-center align-center justify-center" id="home">
+        <span className="flex bg-#edf2f8  h-20 rounded shadow-2xl w-40 p-5 ml-[4rem] ">
           <span className="text-yellow-400 p-2 mr-2 text-[2.1rem] hover:-translate-x-2 hover:scale-110 duration-300 ease-in-out">
             <PiHandWavingFill />
           </span>
@@ -61,9 +60,9 @@ const Home = () => {
         <span className="hidden mdl:flex absolute top-[3.1rem] right-0 rounded-b-full bg-#e1e8f1 shadow-2xl h-20 w-40"></span>
         <span className="hidden mdl:flex  absolute top-[15rem] left-16 rounded-full bg-#dfe6ef shadow-2xl h-16 w-16"></span>
         <span className="hidden mdl:flex  absolute top-[10rem] right-2 rounded-full bg-#dfe6ef shadow-2xl h-16 w-16"></span>
-        <a href="https://www.facebook.com/dean.mabuela" target="_blank" rel="noreferrer" className="absolute top-[15rem] left-2 rounded-full bg-white h-8 w-8 hover:bg-dean_blue  "><FiFacebook className="m-2 text-[1.2rem] text-gray-500 hover:text-white "/></a>
-        <a href="https://github.com/TLOU49" target="_blank" rel="noreferrer" className="absolute top-[17.5rem] left-2 rounded-full bg-white h-8 w-8 hover:bg-dean_blue  "><AiFillGithub className="m-2 text-[1.2rem] text-gray-500 hover:text-white "/></a>
-        <a href="https://www.linkedin.com/in/dean-mabuela-590a9a136/" target="_blank" rel="noreferrer" className="absolute top-[20rem] left-2 rounded-full bg-white h-8 w-8 hover:bg-dean_blue  "><BiLogoLinkedin className="m-2 text-[1.2rem] text-gray-500 hover:text-white "/></a>
+        <a href="https://www.facebook.com/dean.mabuela" target="_blank" rel="noreferrer" className="absolute top-[15rem] left-[1.5rem] rounded-full bg-white h-8 w-8 hover:bg-dean_blue  "><FiFacebook className="m-2 text-[1.2rem] text-gray-500 hover:text-white "/></a>
+        <a href="https://github.com/TLOU49" target="_blank" rel="noreferrer" className="absolute top-[17.5rem] left-[1.5rem] rounded-full bg-white h-8 w-8 hover:bg-dean_blue  "><AiFillGithub className="m-2 text-[1.2rem] text-gray-500 hover:text-white "/></a>
+        <a href="https://www.linkedin.com/in/dean-mabuela-590a9a136/" target="_blank" rel="noreferrer" className="absolute top-[20rem] left-[1.5rem] rounded-full bg-white h-8 w-8 hover:bg-dean_blue  "><BiLogoLinkedin className="m-2 text-[1.2rem] text-gray-500 hover:text-white "/></a>
       </div>
       
       {/* ABOUT ME */}

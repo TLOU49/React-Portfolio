@@ -42,7 +42,7 @@ const About = () => {
           text="I have great, fresh, modern ideas that can push any institution to newer and greater hights. "
         />
       </div>
-      <p className="w-full p-6 text-[13px] text-gray-500 ">
+      <p className="w-full text-center p-6 text-[13px] text-gray-500 ">
         With the expansion of AI, I still believe that they cannot replace
         humans. The human touch will always be special. The only way AI can
         replace humans is if humans are not innovative enough and lack ideas for

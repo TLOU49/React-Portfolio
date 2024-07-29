@@ -9,6 +9,7 @@ import BS from "../assets/bootstrap.avif"
 import Next from "../assets/next.webp"
 import Node from "../assets/Node.jpg"
 import Git from "../assets/git.jpg"
+import Net from "../assets/.net.jpg"
 import Firebase from "../assets/firebase.jpg"
 
 
@@ -19,6 +20,7 @@ const Skills = () => {
         <Skill image={HTML} name="HTML5" />
         <Skill image={CSS} name="CSS3" />
         <Skill image={Reactp} name="React js" />
+        <Skill image={Net} name="ASP.NET" />
         <Skill image={Redux} name="Redux" />
         <Skill image={Firebase} name="Firebase" />
         <Skill image={TW} name="Talwind css" />
