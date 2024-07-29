@@ -9,7 +9,7 @@ import BS from "../assets/bootstrap.avif"
 import Next from "../assets/next.webp"
 import Node from "../assets/Node.jpg"
 import Git from "../assets/git.jpg"
-import Net from "../assets/.net.jpg"
+import Net from "../assets/net.png"
 import Firebase from "../assets/firebase.jpg"
 
 
